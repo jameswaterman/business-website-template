@@ -148,7 +148,7 @@ header {
 	background-position: center;
 	background-size: cover;
 	width: 100vw;
-    height: max(92vh, 700px);
+    height: max(92vh, 525px);
     z-index: 1;
     margin-top: 8vh;
 }
@@ -595,6 +595,10 @@ header section {
 @media only screen and (orientation: landscape) {
 	.price {
 		height: max(100vh, 750px);
+	}
+
+	header {
+		height: max(92vh, 700px);
 	}
 }
 
