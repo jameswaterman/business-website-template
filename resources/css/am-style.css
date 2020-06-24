@@ -148,7 +148,7 @@ header {
 	background-position: center;
 	background-size: cover;
 	width: 100vw;
-    height: max(92vh, 525px);
+    height: max(92vh, 700px);
     z-index: 1;
     margin-top: 8vh;
 }
