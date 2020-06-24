@@ -338,7 +338,7 @@ header section {
 	background-image: url("../images/landing-img.jpg");
 	background-position: center;
 	background-size: cover;
-	height: max(500px, 100vh);
+	height: max(600px, 100vh);
 	z-index: 1;
 }
 
@@ -369,7 +369,7 @@ header section {
 
 .price-card-top {
 	font-size: clamp(2rem, 4vw, 3rem);
-	padding: 10%;
+	padding: max(10%, 5px);
 	background-color: #4DB2B9;
 	color: white;
 }
@@ -380,7 +380,7 @@ header section {
 
 .price-card-bottom {
 	font-size: clamp(0.9rem, 3vw, 1.4rem);
-	padding: 15% 10% 10% 10%;
+	padding: max(15%, 10px) max(10%, 5px) max(10%, 5px) max(10%, 5px);
 }
 
 .list-title {
@@ -590,6 +590,12 @@ header section {
     	width: 100%;
     	margin: 5% 0;
     }
+}
+
+@media only screen and (orientation: landscape) {
+	.price {
+		height: max(100vh, 750px);
+	}
 }
 
 
